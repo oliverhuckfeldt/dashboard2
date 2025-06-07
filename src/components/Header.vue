@@ -7,7 +7,8 @@ const { title } = defineProps<Props>();
 </script>
 
 <template>
-  <header>
+  <header class="flex justify-between">
     <h2>{{ title }}</h2>
+    <a href="#"><i class="fa-solid fa-circle-user"></i></a>
   </header>
 </template>
